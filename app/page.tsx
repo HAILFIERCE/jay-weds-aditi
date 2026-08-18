@@ -1,3 +1,4 @@
+import Countdown from "./countdown";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAF7F2] text-[#2E2E2E]">
@@ -23,7 +24,7 @@ export default function Home() {
             Wedlock Greens, Dhanbad
           </p>
         </div>
-
+<Countdown />
         <button className="mt-10 rounded-full bg-[#C8A45D] px-8 py-3 text-white transition hover:scale-105">
           Open Invitation
         </button>
