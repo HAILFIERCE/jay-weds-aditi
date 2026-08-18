@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+  background: #faf7f2;
+}
+
+.gold-text {
+  color: #c8a45d;
+}
+
+.floral-bg {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(200,164,93,.08), transparent 25%),
+    radial-gradient(circle at 80% 20%, rgba(200,164,93,.08), transparent 25%),
+    radial-gradient(circle at 20% 80%, rgba(200,164,93,.08), transparent 25%),
+    radial-gradient(circle at 80% 80%, rgba(200,164,93,.08), transparent 25%);
+}

@@ -39,26 +39,26 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="mt-8 flex gap-4 text-center">
-      <div>
+    <div className="mt-10 flex flex-wrap justify-center gap-4 text-center">
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
         <p className="text-3xl font-bold">{timeLeft.days}</p>
         <p>Days</p>
-      </div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
 
-      <div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
         <p className="text-3xl font-bold">{timeLeft.hours}</p>
         <p>Hours</p>
-      </div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
 
-      <div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
         <p className="text-3xl font-bold">{timeLeft.minutes}</p>
         <p>Minutes</p>
-      </div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
 
-      <div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
         <p className="text-3xl font-bold">{timeLeft.seconds}</p>
         <p>Seconds</p>
-      </div>
-    </div>
+      <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
+    <div className="min-w-[90px] rounded-2xl border border-[#C8A45D] bg-white p-4 shadow-md">
   );
 }
